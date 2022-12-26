@@ -4,9 +4,7 @@ import Layout from "../components/shared/layout/layout";
 
 const Contact: NextPageWithLayout = () => {
   return (
-    <Layout>
-      <div className='bg-black w-full h-screen mb-52'></div>
-      </Layout>
+    <div className='mb-52'></div>
   )
 }
 

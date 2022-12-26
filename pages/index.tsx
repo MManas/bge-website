@@ -5,7 +5,7 @@ import Layout from "../components/shared/layout/layout";
 const Home: NextPageWithLayout = () => {
   return (
     <Layout>
-      <div className='bg-black w-full h-screen mb-52'></div>
+      <div className='mb-52'></div>
     </Layout>
   )
 }
