@@ -33,7 +33,7 @@ const Navbar = () => {
             <Link href='/'>
                 <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'>BΓE</h1>
             </Link>
-            <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
+            <ul style={{color: `${textColor}`}} className='hidden desktop:flex'>
                 <li className='p-4'>
                    <Link href='/'>HOME</Link>
                 </li>
@@ -54,10 +54,10 @@ const Navbar = () => {
                 </li>
             </ul>
 
-            <div onClick={handleNav} className='block sm:hidden z-10'>
+            <div onClick={handleNav} className='block desktop:hidden z-10'>
                {nav ? <AiOutlineClose size={20} style={{color: `${textColor}`}} /> : <AiOutlineMenu size={20} style={{color: `${textColor}`}} />}
             </div>
-            <div style={{backgroundColor: `${navColor}`}} className={nav ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'}>
+            <div style={{backgroundColor: `${navColor}`}} className={nav ? 'desktop:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300' : 'desktop:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'}>
             <ul style={{color: `${textColor}`}}>
                 <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                    <Link href='/pages'>HOME</Link>
