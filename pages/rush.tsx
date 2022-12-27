@@ -1,10 +1,10 @@
 import {NextPageWithLayout} from "./_app";
 import React, {ReactElement} from "react";
-import Layout from "../components/shared/layout/layout";
+import Layout from "../components/shared/layout/Layout";
 
 const Rush: NextPageWithLayout = () => {
   return (
-    <div className='mb-52'></div>
+    <div className=''></div>
   )
 }
 

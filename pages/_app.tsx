@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
     <div>
       <Head>
         <title>Beta Gamma Epsilon</title>
-        <meta name="description" content="Northeastern University's engineering and first social fraternity." />
+        <meta name="description" content="Northeastern University's Engineering and First Social Fraternity." />
         <meta charSet="utf-8" />
         <link
           rel="icon"
@@ -37,9 +37,5 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
           {/* eslint-disable-next-line react/jsx-props-no-spreading */}
           <main>{getLayout(<Component {...pageProps} />)}</main>
     </div>
-  // <>
-  // <Navbar />
-  // <Component {...pageProps} />
-  // </>
   );
 }

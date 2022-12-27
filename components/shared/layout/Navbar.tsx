@@ -60,22 +60,22 @@ const Navbar = () => {
             <div style={{backgroundColor: `${navColor}`}} className={nav ? 'desktop:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300' : 'desktop:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'}>
             <ul style={{color: `${textColor}`}}>
                 <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                   <Link href='/pages'>HOME</Link>
+                   <Link href='/'>HOME</Link>
                 </li>
                 <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                   <Link href='/pages'>WHO WE ARE</Link>
+                   <Link href='/who-we-are'>WHO WE ARE</Link>
                 </li>
                 <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                   <Link href='/pages'>RUSH</Link>
+                   <Link href='/rush'>RUSH</Link>
                 </li>
                 <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                   <Link href='/pages'>OUR HOUSE</Link>
+                   <Link href='/our-house'>OUR HOUSE</Link>
                 </li>
                 <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                   <Link href='/pages'>NEWS</Link>
+                   <Link href='/news'>NEWS</Link>
                 </li>
                 <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                   <Link href='/pages'>CONTACT US</Link>
+                   <Link href='/contact'>CONTACT US</Link>
                 </li>
             </ul>
             </div>
