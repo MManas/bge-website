@@ -13,9 +13,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <div className="z-0 fixed w-screen h-screen">
         <Image
           src={backgroundImage}
-          alt="beta gamma epsilon house"
+          alt="Beta Gamma Epsilon House"
           fill
-          objectFit="cover"
+          className="object-cover"
         />
       </div>
       <div className="z-10 fixed w-screen h-screen bg-black opacity-80" />
